@@ -1,6 +1,6 @@
 export default {
   title: 'Fun with Docz',
-  description: 'Here we`ll be having fun with Docz!!',
+  description: 'Here we`ll be playing around with Docz!!',
   // themeConfig: {
   //   mode: 'dark',
   // },
