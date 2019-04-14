@@ -4,7 +4,7 @@ export default {
   // themeConfig: {
   //   mode: 'dark',
   // },
-  dest: '/docz-build',
+  dest: '/docs-build',
   files: './src/docs/*.{md,mdx}',
   public: './public',
   port: 3003,

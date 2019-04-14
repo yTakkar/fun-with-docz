@@ -9,9 +9,7 @@
     "repository": null,
     "native": false,
     "codeSandbox": true,
-    "themeConfig": {
-      "mode": "dark"
-    },
+    "themeConfig": {},
     "separator": "-",
     "dest": "/docz-build",
     "files": "./src/docs/*.{md,mdx}",
