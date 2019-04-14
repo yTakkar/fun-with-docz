@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "docz": "^1.0.0",
+    "docz-theme-default": "^1.0.0",
+    "prop-types": "^15.7.2"
+  },
+  "scripts": {
+    "doc:dev": "docz dev",
+    "doc:build": "docz build",
+    "rename": "mv ./docz-build/index.html ./docz-build/200.html",
+    "deploy": "yarn doc:build && yarn rename && surge -p docz-build -d https://fun-with-docz.surge.sh "
+  },
+  "name": "docz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

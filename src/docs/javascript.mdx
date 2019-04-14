@@ -1,0 +1,21 @@
+---
+name: JavaScript
+route: /javascript
+---
+
+# JavaScript
+
+Here's an example of Generators.
+
+```js
+function* myGen() {
+  yield 10;
+  yield 20;
+  yield 30;
+}
+
+const g = myGen()
+g.next().value  // 10
+g.next().value  // 20
+g.next().value  // 30
+```
