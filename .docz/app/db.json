@@ -3,14 +3,15 @@
     "title": "Fun with Docz",
     "description": "Here we`ll be having fun with Docz!!",
     "menu": [
-      "Greet",
-      "Button"
+      "Greet"
     ],
     "version": "1.0.0",
     "repository": null,
     "native": false,
     "codeSandbox": true,
-    "themeConfig": {},
+    "themeConfig": {
+      "mode": "dark"
+    },
     "separator": "-",
     "dest": "/docz-build",
     "files": "./src/docs/*.{md,mdx}",
@@ -84,7 +85,7 @@
       "key": "src/docs/greet.mdx",
       "value": {
         "name": "Greet",
-        "route": "/greet",
+        "route": "/",
         "id": "4b1e724a79e93b81f63ee7c0b9e674cd",
         "filepath": "src/docs/greet.mdx",
         "link": "",

@@ -2,7 +2,7 @@ export default {
   title: 'Fun with Docz',
   description: 'Here we`ll be having fun with Docz!!',
   // themeConfig: {
-    // mode: 'dark',
+  //   mode: 'dark',
   // },
   dest: '/docz-build',
   files: './src/docs/*.{md,mdx}',
@@ -10,6 +10,5 @@ export default {
   port: 3003,
   menu: [
     'Greet',
-    'Button'
   ],
 }
