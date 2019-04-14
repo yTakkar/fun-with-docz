@@ -1,7 +1,7 @@
 {
   "config": {
     "title": "Fun with Docz",
-    "description": "Here we`ll be having fun with Docz!!",
+    "description": "Here we`ll be playing around with Docz!!",
     "menu": [
       "Greet"
     ],
@@ -11,7 +11,7 @@
     "codeSandbox": true,
     "themeConfig": {},
     "separator": "-",
-    "dest": "/docz-build",
+    "dest": "/docs-build",
     "files": "./src/docs/*.{md,mdx}",
     "public": "./public",
     "port": 3003
